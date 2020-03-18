@@ -1,3 +1,3 @@
 ### Docs samples
 
-Test [Get Started](GetStarted)
+Test [Get Started](GetStarted.md)
