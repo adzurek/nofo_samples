@@ -1,1 +1,3 @@
-### Nofo API docs
+### Docs samples
+
+Test [Get Started](GetStarted)
