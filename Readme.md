@@ -1,1 +1,3 @@
-Sample Readme.md file
+### Sample
+
+Test [Get Started](GetStarted)
