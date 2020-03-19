@@ -15,15 +15,6 @@
                 <input id="accordion{{ forloop.index }}" type="checkbox" />
                 <label for="accordion{{ forloop.index }}">{{ item.name }}</label>
                 <div>{{ item.url | markdownify }}</div>
-                {% if item.subpages.size > 0 %}
-                <ul class="jekyllcodex_accordion">
-                    {% for spage in item.subpages %}
-                    <li>
-                        {{ spage.name }}
-                    </li>
-                    {% endfor %}
-                </ul>
-                {% endfor %}
             </li>
         {% endfor %}
     </ul>
