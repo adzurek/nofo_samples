@@ -1,8 +1,20 @@
 - name: Home
   url: /
+  subpages:
+    -
+      - name: Inner
+      - url: /Inner
 
 - name: Get Started
   url: /GetStarted
+  subpages:
+    -
+      - name: Inner
+      - url: /Inner
 
 - name: Tester
   url: /Tester
+  subpages:
+    -
+      - name: Inner
+      - url: /Inner
