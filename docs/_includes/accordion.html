@@ -13,7 +13,7 @@
         {% for item in site.data.pages %}
             <li>
                 {% if item.url.size > 0 %}
-                <a href="/nofo_samples/{{ item.url }}">{{ item.name }}</a>
+                <label><a href="/nofo_samples/{{ item.url }}">{{ item.name }}</a></label>
                 {% else %}
                 <input id="accordion{{ forloop.index }}" type="checkbox" />
                 <label for="accordion{{ forloop.index }}">{{ item.name }}</label>
@@ -23,7 +23,7 @@
                     <ul class="jekyllcodex_accordion">
                         {% for spage in item.subpages %}
                         <li>
-                            <a href="/nofo_samples/{{ spage.url }}">{{ item.name }}</a>
+                            <label><a href="/nofo_samples/{{ spage.url }}">{{ spage.name }}</a></label>
                         </li>
                         {% endfor %}
                     </ul>
