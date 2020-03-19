@@ -1,3 +1,10 @@
+---
+accordion: 
+  - title: this is item 1
+    content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+  - title: this is item 2
+    content: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+---
 <!DOCTYPE html>
 <html lang="{{ site.lang | default: "en-US" }}">
   <head>
@@ -59,6 +66,7 @@
           
         {% endfor %}
         </ul>
+        {% include accordion.html %}
       </header>
       <section>
       <nav>
