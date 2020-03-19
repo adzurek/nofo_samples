@@ -19,9 +19,7 @@
                 <ul class="jekyllcodex_accordion">
                     {% for spage in item.subpages %}
                     <li>
-                        <input id="accordion{{ forloop.index }}" type="checkbox" />
-                        <label for="accordion{{ forloop.index }}">{{ spage.name }}</label>
-                        <div>{{ spage.url | markdownify }}</div>
+                        {{ spage.name }}
                     </li>
                     {% endfor %}
                 </ul>
