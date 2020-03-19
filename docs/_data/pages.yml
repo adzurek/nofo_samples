@@ -1,0 +1,8 @@
+- name: Home
+  url: /
+
+- name: Get Started
+  url: /GetStarted
+
+- name: Tester
+  url: /Tester
