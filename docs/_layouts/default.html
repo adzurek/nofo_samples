@@ -42,8 +42,19 @@
         {% for pagea in site.data.pages %}
           <li>
             <a href="/nofo_samples{{ pagea.url }}">
-              {{ pagea.name }} {{ pagea.subpages.size }}
+              {{ pagea.name }}
             </a>
+            {% if pagea.subpages.size > 0 %}
+            <ul>
+              {% for spage in pagea.subpages %}
+              <li>
+                <a href="/nofo_samples{{ spage.url }}">
+                  {{ spage.name }}
+                </a>
+              </li>
+              {% endfor %}
+            </ul>
+            {% endif %}
           </li>
           
         {% endfor %}
