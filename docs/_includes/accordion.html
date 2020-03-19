@@ -15,6 +15,9 @@
                 <input id="accordion{{ forloop.index }}" type="checkbox" />
                 <label for="accordion{{ forloop.index }}">{{ item.name }}</label>
                 <div>{{ item.url | markdownify }}</div>
+                {% if item.subpages.size > 0 %}
+                <span>TEST</span>
+                {% endfor %}
             </li>
         {% endfor %}
     </ul>
