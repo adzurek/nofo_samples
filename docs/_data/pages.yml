@@ -1,17 +1,14 @@
 - name: Home
   url: /
-  subpages:
-    - name: Inner
-      url: /Inner
 
 - name: Get Started
-  url: /GetStarted
   subpages:
-    - name: Inner
-      url: /Inner
+    - name: TestOne
+      url: /TestOne
+    - name: TestTwo
+      url: /TestTwo
 
-- name: Tester
-  url: /Tester
+- name: About
   subpages:
-    - name: Inner
-      url: /Inner
+    - name: Test
+      url: /Test
